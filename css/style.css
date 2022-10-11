@@ -39,12 +39,22 @@ body::-webkit-scrollbar-thumb {
 html {
    scroll-behavior: smooth;
  }
- /* .logo img{
-   width: 300px;
-   height: auto;
- } */
  .debug{
     border: 1px solid red;
+ }
+ .logo h3{
+   font-size: 3rem;
+   position: relative;
+ }
+ .logo h3 small{
+   font-family: 'Inconsolata', monospace;
+ }
+ .logo small{
+   position: absolute;
+   top:6%;
+   color: #05706f;
+   font-size: 1rem;
+
  }
 
  .f{
@@ -440,6 +450,12 @@ form .btn2{
    .logo{
       text-align: center;
    }
+    .logo h3{
+      font-size: 2.5rem;
+   }
+   .logo small{
+      left:36%;
+   }  
 
    .nav-links{
       display: none;
@@ -447,6 +463,7 @@ form .btn2{
    .no-menu{
       display: block;
    }
+   
   .hero .row{
    display: flex;
    flex-direction: column-reverse;
@@ -484,11 +501,20 @@ form .btn2{
 } 
 
 @media only screen and (max-width: 600px){
-   .logo h1{
+   .logo h3{
       font-size: 2rem;
    }
+
+.logo small{
+   top:65%;
+   left:1%;
+   margin-bottom: 30px;
+}
    .title h3{
       font-size: 2rem;
+   }
+   .hero img{
+      margin-top: 30px;
    }
    .portf-cont{
       display: inline;
@@ -509,7 +535,7 @@ form .btn2{
       position: absolute;
       left:50%;
       right: 50%;
-      top: 3%;
+      top: 3.5%;
       padding: 2%; 
       display: flex;
       flex-direction: row;
@@ -529,13 +555,14 @@ form .btn2{
    .contacts-left p{
       font-size: 1.2rem;
      }
+   }
 
-}
 @media only screen and (max-width:320px){
    .title h3{
       font-size: 1.5rem;
    }
    .contacts-left p{
       font-size: 1rem;
-     }
+   }
+   
 }

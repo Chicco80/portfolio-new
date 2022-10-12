@@ -43,7 +43,9 @@ html {
     border: 1px solid red;
  }
  #top{
-   box-shadow: 3px 3px 3px grey;
+   
+    box-shadow: 3px 3px 3px grey; 
+   
  }
  .logo img{
    width: 350px;
@@ -513,7 +515,7 @@ form .btn2{
       position: absolute;
       left:50%;
       right: 50%;
-      top: 12%;
+      top: 22%;
       padding: 2%; 
       display: flex;
       flex-direction: row;

@@ -92,7 +92,7 @@ html {
  .mini{
    position: fixed;
    left:0;
-   top: 35%;
+   top: 45%;
    padding: 2%; 
    display: flex;
    flex-direction: column;
